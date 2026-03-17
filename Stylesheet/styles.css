@@ -1,0 +1,127 @@
+body { width: 1440px; margin: 0 auto; }
+
+.homepage{
+  display: flex;
+  position: sticky;
+    top: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.demoreel{
+  margin: 40px;
+  border: #137278;
+}
+
+.menu {
+    margin: 20px;
+    padding: 12px;
+    border-top: solid 1px #aaaaaa;
+    border-bottom: solid 1px #aaaaaa;
+    font: 20px;
+    margin-left: 50px;
+}
+
+.header {
+    height: 100%;
+    padding: 15px;
+    background-color: #ffffff;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+a {color: #aaaaaa; text-decoration: none; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+a:visited{color: #aaaaaa;}
+a:hover {color: #137278;}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px, 150px, 100px, 150px;
+}
+
+.piecestatic{
+  margin: 40px
+}
+
+.piece{
+  margin: 40px;
+  transition: transform .2s;
+}
+
+.piece:hover{
+  transform:scale(1.04);
+}
+
+.content{
+  margin-left: 200px;
+  width: 700px;
+}
+
+.menubutton{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 180px;
+  font-size: 23px;
+  color: #137278;
+}
+
+.body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: #aaaaaa;
+  line-height: 25px;
+}
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffffff;
+  color: #aaaaaa;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #aaaaaa;
+  padding: 10px 16px;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #137278;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ffffff;}
